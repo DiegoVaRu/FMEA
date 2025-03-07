@@ -1,7 +1,4 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -9,21 +6,23 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "FMEA_a7be58dd"
+            "projectName": "FMEA_a7be58dd",
+            "vmArgs": "--module-path \"${workspaceFolder}/lib/javafx-sdk-23.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "FMEA_72d81d9c"
+            "projectName": "FMEA_72d81d9c",
+            "vmArgs": "--module-path \"${workspaceFolder}/lib/javafx-sdk-23.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "vmArgs": "--module-path \"C:\\DIEGO\\Programas\\_Programación\\_Java\\javafx-sdk-23.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"${workspaceFolder}/lib/javafx-sdk-23.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -31,7 +30,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "FMEA_cee5ce94",
-            "vmArgs": "--module-path \"C:\\DIEGO\\Programas\\_Programación\\_Java\\javafx-sdk-23.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"${workspaceFolder}/lib/javafx-sdk-23.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
